@@ -6,4 +6,4 @@ class Tokenizer
    public:
 	std::vector<std::string>* GetTokens();
 
-}
+};
