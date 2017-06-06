@@ -1,8 +1,9 @@
 #include <iostream>
+#include <vector>
 
 class Tokenizer
 {
-  //  public:
-//        int GetTokens(*string);
+   public:
+	std::vector<std::string>* GetTokens();
 
 }
