@@ -1,9 +1,24 @@
 #include <iostream>
 #include <vector>
 
+using namespace std;
+
 class Tokenizer
 {
    public:
-	std::vector<std::string>* GetTokens();
+	Tokenizer(string);
+	~Tokenizer();
+	vector<string>* GetTokens();
 
+   private: 
+	string str;
 };
+
+Tokenizer::Tokenizer(string input){
+     str = input;
+}
+
+Tokenizer::~Tokenizer( ){
+    
+}
+

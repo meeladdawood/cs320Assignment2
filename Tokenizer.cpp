@@ -2,6 +2,9 @@
 #include<stdlib.h>
 #include<string.h>
 #include<ctype.h>
+#include"Tokenizer.hpp"
+
+Tokenizer tokens("Swaggie Pop dodo");
 
 
 char* token(char *copy){
