@@ -7,8 +7,8 @@ using namespace std;
 class Tokenizer
 {
    public:
-//	Tokenizer();
-	Tokenizer(string line);
+	Tokenizer();
+//	Tokenizer(string line);
 	~Tokenizer();
 	vector<string>* GetTokens();
 
@@ -19,14 +19,14 @@ class Tokenizer
 
 
 
-//Tokenizer::Tokenizer(){
-//    vector<string> strings;
-//}
-
-Tokenizer::Tokenizer(string line){
+Tokenizer::Tokenizer(){
     vector<string> strings;
-    str = line;
 }
+
+//Tokenizer::Tokenizer(string line){
+//    vector<string> strings;
+//    str = line;
+//}
 
 
 Tokenizer::~Tokenizer( ){
