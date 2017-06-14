@@ -17,6 +17,9 @@ vector<string>* Tokenizer::GetTokens(){
     }
 }
 
+Tokenizer::~Tokenizer(){
+
+}
 
 
 
