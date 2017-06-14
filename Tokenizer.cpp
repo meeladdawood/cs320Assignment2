@@ -25,6 +25,7 @@ vector<string>* Tokenizer::GetTokens(){
     */
 
 while (1) {
+	strings.clear();
 	char line[65];
 	printf("> ");
 	fgets(line, 65, stdin);
@@ -83,7 +84,12 @@ int main(){
 Tokenizer tokens;
 
 tokens.GetTokens();
-
+tokens.GetTokens();
+tokens.GetTokens();
+tokens.GetTokens();
+tokens.GetTokens();
+tokens.GetTokens();
+tokens.GetTokens();
 
 }
 */
