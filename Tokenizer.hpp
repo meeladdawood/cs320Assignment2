@@ -1,3 +1,6 @@
+#ifndef TOKENIZER_HPP
+#define TOKENIZER_HPP
+
 #include <iostream>
 #include <vector>
 #include <sstream>
@@ -18,4 +21,4 @@ class Tokenizer
 };
 
 
-
+#endif
