@@ -6,6 +6,5 @@
 
 using namespace std;
 
-Tokenizer tokens;
 
 
