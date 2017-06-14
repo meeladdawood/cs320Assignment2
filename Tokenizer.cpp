@@ -44,7 +44,8 @@ while (1) {
 		printf("ERROR! Incorrect number of tokens found.\n");
 		continue;
 	} else if(strcasecmp(strtok(copy,"\n"),leave)==0){
-                       exit(0);
+                        printf("k thx bye.");
+			exit(0);
         } else if(strings.size() == 2){
 		char* str = token(copy);
 		if(!strcmp(str,"STR INT ")==0){
