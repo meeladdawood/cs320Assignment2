@@ -28,10 +28,7 @@ Tokenizer::Tokenizer(){
 //    str = line;
 //}
 
-
-Tokenizer::~Tokenizer( ){
     
-}
 
 vector<string>* Tokenizer::GetTokens(){
     cout << str << endl;
