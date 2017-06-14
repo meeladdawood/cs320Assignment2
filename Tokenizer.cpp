@@ -62,6 +62,7 @@ while (1) {
                 }
  
 	} else if (strings.size() == 0) {
+		strings.clear();
 		printf("ERROR! Incorrect number of tokens found.\n");
 		continue;
 	} else {
