@@ -11,7 +11,6 @@ private:
 public:
 	Stack();
 	~Stack();
-	bool Empty();
 	void Push(T item);
 	T Pop();
 	void Print();  
