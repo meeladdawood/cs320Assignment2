@@ -1,21 +1,21 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-//#include"Tokenizer.cpp"
 #include"Tokenizer.hpp"
 
 
-int main(){
-Tokenizer tokens;
-cout << "Swagg test" << endl;
+int main(int argc, char *argv[]){
+	Tokenizer tokens;
 
-tokens.GetTokens();
-tokens.GetTokens();
-tokens.GetTokens();
-tokens.GetTokens();
-tokens.GetTokens();
-tokens.GetTokens();
-tokens.GetTokens();
+	int times = 0;
+	printf("Assignment #2-2, Meelad Dawood, mdawood2@sdsu.edu\n");
+	times = atoi(argv[1]);
+	
+
+
+	for(int i = 0; i < times ; i++){
+		tokens.GetTokens();
+	}
 
 }
 
