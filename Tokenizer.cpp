@@ -4,29 +4,8 @@
 #include<ctype.h>
 #include"Tokenizer.hpp"
 
-Tokenizer tokens("Swaggie Pop dodo");
+using namespace std;
 
-
-char* token(char *copy){
-	char* res = (char *) malloc(sizeof(char) * 3);
-	char* word = strtok(copy, " \n\t");
-	while (word != NULL) {
-	for (int i = 0; i < strlen(word); i++) {
-		if (!isdigit(word[i])) {
-			strcat(res,"STR ");
-                        break;
-                } else if (isdigit(word[i]) && isalpha(word[i + 1])) {
-			strcat(res,"STR ");
-                        break;
-                } else {
-			strcat(res,"INT ");
-                        break;
-                }
-	}
-   	word = strtok(NULL, " \n\t");
-	}
-	return res;
-}
-
+Tokenizer tokens;
 
 
