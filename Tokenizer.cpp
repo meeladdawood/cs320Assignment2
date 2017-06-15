@@ -33,8 +33,7 @@ while (1) {
 		continue;
 	} else if(strcasecmp(strtok(copy,"\n"),leave)==0){
                         printf("k thx bye.");
-			//exit(0);
-			return 0;
+			exit(0);
 		
         } else if(strings.size() == 2){
 		char* str = token(copy);
