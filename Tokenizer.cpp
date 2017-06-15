@@ -34,6 +34,7 @@ while (1) {
 	} else if(strcasecmp(strtok(copy,"\n"),leave)==0){
 			//printf("k thx bye.");
 	       		//exit(0);
+			strings.push_back(word);
 			return 0;
 		
         } else if(strings.size() == 2){
