@@ -34,7 +34,7 @@ while (1) {
 	} else if(strcasecmp(strtok(copy,"\n"),leave)==0){
 			//printf("k thx bye.");
 	       		//exit(0);
-			strings.push_back(word);
+			strings.push_back(copy);
 			return 0;
 		
         } else if(strings.size() == 2){
@@ -84,7 +84,6 @@ tokens.GetTokens();
 
 }
 */
-
 
 char* token(char *copy){
 	char* res = (char *) malloc(sizeof(char) * 3);
