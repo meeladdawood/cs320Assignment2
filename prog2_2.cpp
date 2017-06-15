@@ -19,7 +19,7 @@ int main(int argc, char *argv[]){
 			cout << "STR " << endl;
 		}
 		if(tokens.strings.size()== 2){
-                        cout << "STR INT " << endl;
+                        cout << "STR INT" << endl;
                 }
 
 	}
