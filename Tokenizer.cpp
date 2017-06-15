@@ -32,8 +32,8 @@ while (1) {
 		printf("ERROR! Incorrect number of tokens found.\n");
 		continue;
 	} else if(strcasecmp(strtok(copy,"\n"),leave)==0){
-		//	printf("k thx bye.");
-			exit(0);
+			printf("k thx bye.");
+	       		exit(0);
 		
         } else if(strings.size() == 2){
 		char* str = token(copy);
@@ -61,12 +61,10 @@ while (1) {
 	}
 }
 
-delete tok;
 
 }
 
 Tokenizer::~Tokenizer(){
-    printf("k thx bye.");
 	
 }
 
@@ -83,8 +81,8 @@ tokens.GetTokens();
 tokens.GetTokens();
 
 }
-
 */
+
 
 char* token(char *copy){
 	char* res = (char *) malloc(sizeof(char) * 3);
