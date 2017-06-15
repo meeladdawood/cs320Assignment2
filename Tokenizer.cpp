@@ -47,7 +47,6 @@ while (1) {
                         printf("k thx bye.");
 			//exit(0);
 			strings.clear();
-			break;
         } else if(strings.size() == 2){
 		char* str = token(copy);
 		if(!strcmp(str,"STR INT ")==0){
