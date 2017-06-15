@@ -16,11 +16,11 @@ int main(int argc, char *argv[]){
 	for(int i = 0; i < times ; i++){
 		tokens.GetTokens();
 		if(tokens.strings.size()== 1){
-			printf("STR");
+			printf("STR\n");
 			
 		}
 		if(tokens.strings.size()== 2){
-                        printf("STR INT");
+                        printf("STR INT\n");
                 }
 
 	}
