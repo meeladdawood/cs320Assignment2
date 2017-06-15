@@ -11,18 +11,6 @@ Tokenizer::Tokenizer(){
 
 
 vector<string>* Tokenizer::GetTokens(){
-    /* string line;
-    printf("> ");
-    getline(cin, line);
-    str = line;
-    istringstream f(str);
-    string s;
-    while (getline(f, s, ' ')) {
-         cout << s << endl;
-         strings.push_back(s);
-    }
-    cout << strings.size() << endl;
-    */
 
 while (1) {
 	strings.clear();
