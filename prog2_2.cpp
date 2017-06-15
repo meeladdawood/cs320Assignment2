@@ -16,10 +16,11 @@ int main(int argc, char *argv[]){
 	for(int i = 0; i < times ; i++){
 		tokens.GetTokens();
 		if(tokens.strings.size()== 1){
-			cout << "STR" << endl;
+			printf("STR");
+			
 		}
 		if(tokens.strings.size()== 2){
-                        cout << "STR INT" << endl;
+                        printf("STR INT");
                 }
 
 	}
