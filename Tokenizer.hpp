@@ -11,12 +11,12 @@ class Tokenizer
 {
    public:
 	Tokenizer();
-//	Tokenizer(string line);
 	~Tokenizer();
+	vector<string> strings;
 	vector<string>* GetTokens();
 
    private: 
-	vector<string> strings;
+//	vector<string> strings;
 	string str;
 };
 
