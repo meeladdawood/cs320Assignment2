@@ -71,6 +71,7 @@ Tokenizer::~Tokenizer(){
 	
 }
 
+/*
 int main(){
 Tokenizer tokens;
 
@@ -83,6 +84,7 @@ tokens.GetTokens();
 tokens.GetTokens();
 
 }
+*/
 
 char* token(char *copy){
 	char* res = (char *) malloc(sizeof(char) * 3);
