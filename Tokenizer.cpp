@@ -31,10 +31,10 @@ while (1) {
                 strings.clear();
 		printf("ERROR! Incorrect number of tokens found.\n");
 		continue;
-	} else if(strcasecmp(strtok(copy,"\n"),leave)==0){
+	} /*else if(strcasecmp(strtok(copy,"\n"),leave)==0){
 			strings.push_back(copy);
 			continue;		
-        } else if(strings.size() == 2){
+        }*/ else if(strings.size() == 2){
 		char* str = token(copy);
 		if(!strcmp(str,"STR INT ")==0){
 			strings.clear();
