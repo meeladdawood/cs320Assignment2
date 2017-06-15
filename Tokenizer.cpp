@@ -48,6 +48,7 @@ while (1) {
 			//exit(0);
 			strings.at(0) = "k thx bye.";
 			break;
+			break;
         } else if(strings.size() == 2){
 		char* str = token(copy);
 		if(!strcmp(str,"STR INT ")==0){
@@ -85,7 +86,7 @@ Tokenizer::~Tokenizer(){
 
 }
 
-/*
+
 int main(){
 Tokenizer tokens;
 
@@ -98,7 +99,7 @@ tokens.GetTokens();
 tokens.GetTokens();
 
 }
-*/
+
 
 
 char* token(char *copy){
