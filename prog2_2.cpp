@@ -19,7 +19,7 @@ int main(int argc, char *argv[]){
 			exit(0);
 			
 		} else if(tokens.strings.size() ==1){
-			printf("STR");
+			printf("STR\n");
 		}
 
 		
