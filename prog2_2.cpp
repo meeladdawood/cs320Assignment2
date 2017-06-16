@@ -14,16 +14,16 @@ int main(int argc, char *argv[]){
 
 	string leave = "quit";
 	for(int i = 0; i < times ; i++){
-		tokens.GetTokens();
-		if(tokens.strings.size()== 1 && strcasecmp(tokens.strings.at(0).c_str(),leave.c_str())==0){
+		vector<string> *ptr = tokens.GetTokens();
+		if(ptr->size()== 1 && strcasecmp(ptr->at(0).c_str(),leave.c_str())==0){
 			exit(0);
 			
-		} else if(tokens.strings.size() ==1){
+		} else if(ptr->size() ==1){
 			printf("STR\n");
 		}
 
 		
-		if(tokens.strings.size()== 2){
+		if(ptr->size()== 2){
                         printf("STR INT\n");
                 }
 
