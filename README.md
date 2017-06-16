@@ -89,7 +89,7 @@ g++ prog2_2.cpp Tokenizer.cpp -o prog2_2
 
 ### prog2\_3
 **Description:**
-
+prog2\_3 is an reimplementation of prog2\_2 except it represents a stack machince. The program takes in one command line argument, in which it will prompt the user N times and if the user inputs "pop" or "push #" case sensitive, then those entered operations will be performed on the stack. If the user enters input in the incorrect format then the appropriate error message will be printed. If the user enters input in the correct format but it's not either "pop" or "push #" case sensitive then that input will be ignored. When the program reaches N times then the contents of the stack will be printed to STDOUT. 
  
 
 
