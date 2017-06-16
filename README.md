@@ -56,22 +56,35 @@ It is linked to the Stack.cpp. When you run the Stack.cpp file the Stack.hpp wil
 
 ### prog2\_1
 **Description:**
-
- 
+prog2\_1 is the C++ version of prog1\_6. This program will read in a single command line argument of N-integer, if the user inputs more than one or zero command line arguments then an appropriate error message will be printed. After the user inputs a single integer command line argument. The program will peform the same as prog1\_5.c expect this time, it will N times. The user can input "quit" to exit the program before entering data N times.
 
 
 **How to compile/run:**
 
+```
+//Compiling
+g++ prog2_1.cpp -o prog2_1
+
+//Running
+./prog2_1 8
+
+```
 
 ### prog2\_2
 **Description:**
-
+prog2\_2 is an reimplementation of prog2\_1 except this program uses the Tokenizer class to tokenize input String.
  
-
-
 
 **How to compile/run:**
 
+```
+//Compiling
+g++ prog2_2.cpp Tokenizer.cpp -o prog2_2
+
+//Running
+./prog2_2 8
+
+```
 
 
 ### prog2\_3
@@ -83,4 +96,12 @@ It is linked to the Stack.cpp. When you run the Stack.cpp file the Stack.hpp wil
 
 **How to compile/run:**
 
+```
+//Compiling
+g++ prog2_3.cpp Tokenizer.cpp Stack.cpp -o prog2_3
+
+//Running
+./prog2_3 8
+
+```
 
