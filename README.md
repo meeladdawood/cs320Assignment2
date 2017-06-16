@@ -22,7 +22,7 @@ g++ prog2_3.cpp Tokenizer.cpp Stack.cpp -o prog2_3
 
 ### Stack.hpp
 **Description:**
-The Stack.hpp file is the header file for teh Stack.cpp. It contains the data field for the stack and the function prototypes.
+The Stack.hpp file is the header file for the Stack.cpp. It contains the data field for the stack and the function prototypes.
 
 **How to compile/run:**
 It is linked to the Stack.cpp. When you run the Stack.cpp file the Stack.hpp will run as well.
@@ -30,20 +30,28 @@ It is linked to the Stack.cpp. When you run the Stack.cpp file the Stack.hpp wil
 
 ### Tokenizer.cpp
 **Description:**
-The Tokenizer.cpp is the main Tokenizer class in which the function GetTokens in which the tokenization occurs is implemented here. The GetTokens tokenizes based on whitespaces
+The Tokenizer.cpp is the main Tokenizer class in which the function GetTokens in which the tokenization occurs is implemented here. The GetTokens tokenizes based on whitespaces. The GetTokens function returns a pointer to the vector that stores the tokens. 
  
 
 **How to compile/run:**
+Inorder to compile and run successful, the Tokenizer.cpp must be ran with accompanying files.
+
+```
+//Compiling
+g++ prog2_2.cpp Tokenizer.cpp -o prog2_2
+
+//Running
+./prog2_2
+
 
 
 ### Tokenizer.hpp
 **Description:**
-
+The Tokenizer.hpp file is the header file for the Tokenizer.cpp. It contains the data field for the vector and the function prototypes.
  
 
-
 **How to compile/run:**
-
+It is linked to the Stack.cpp. When you run the Stack.cpp file the Stack.hpp will run as well.
 
 ### prog2\_1
 **Description:**
